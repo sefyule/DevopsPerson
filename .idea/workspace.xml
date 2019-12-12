@@ -3,20 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="792ee0c7-fb5f-444a-aa01-dcf8774cd5d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ci/jenkins" beforeDir="false" afterPath="$PROJECT_DIR$/ci/jenkins" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/devops-upem-ws.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/model/Personne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/model/Personne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/repository/PersonneRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/repository/PersonneRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/ressource/PersonneRessource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/ressource/PersonneRessource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/service/PersonneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/service/PersonneService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/devops-upem-ws-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/devops-upem-ws-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/devops-upem-ws-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/devops-upem-ws-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/fr/upem/master2/devops/apprentis/devopsupemws/DevopsUpemWsApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fr/upem/master2/devops/apprentis/devopsupemws/DevopsUpemWsApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/fr/upem/master2/devops/apprentis/devopsupemws/ressource/PersonneRessourceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fr/upem/master2/devops/apprentis/devopsupemws/ressource/PersonneRessourceTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
