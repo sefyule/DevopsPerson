@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: fr.upem.master2.devops.apprentis.devopsupemws.ressource.PersonneRessourceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.987 s - in fr.upem.master2.devops.apprentis.devopsupemws.ressource.PersonneRessourceTest

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="792ee0c7-fb5f-444a-aa01-dcf8774cd5d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci/jenkins" beforeDir="false" afterPath="$PROJECT_DIR$/ci/jenkins" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/devops-upem-ws.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/model/Personne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/model/Personne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/repository/PersonneRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/repository/PersonneRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/ressource/PersonneRessource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/ressource/PersonneRessource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/service/PersonneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/service/PersonneService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/devops-upem-ws-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/devops-upem-ws-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/devops-upem-ws-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/devops-upem-ws-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fr/upem/master2/devops/apprentis/devopsupemws/DevopsUpemWsApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fr/upem/master2/devops/apprentis/devopsupemws/DevopsUpemWsApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fr/upem/master2/devops/apprentis/devopsupemws/ressource/PersonneRessourceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fr/upem/master2/devops/apprentis/devopsupemws/ressource/PersonneRessourceTest.class" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="package-info" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SyNQo5SwXFf8iwdFqPXEiVba3U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="fr.upem.master2.devops.apprentis.devopsupemws.ressource" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="fr.upem.master2.devops.apprentis.devopsupemws" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.PersonneRessourceTest.getOne">
+    <configuration name="PersonneRessourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="devops-upem-ws" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource" />
+      <option name="MAIN_CLASS_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.PersonneRessourceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonneRessourceTest.deletePersonne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="devops-upem-ws" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource" />
+      <option name="MAIN_CLASS_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.PersonneRessourceTest" />
+      <option name="METHOD_NAME" value="deletePersonne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonneRessourceTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="devops-upem-ws" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource" />
+      <option name="MAIN_CLASS_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.PersonneRessourceTest" />
+      <option name="METHOD_NAME" value="getAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonneRessourceTest.getOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="devops-upem-ws" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource" />
+      <option name="MAIN_CLASS_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.PersonneRessourceTest" />
+      <option name="METHOD_NAME" value="getOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonneRessourceTest.postPersonne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="devops-upem-ws" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource" />
+      <option name="MAIN_CLASS_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.PersonneRessourceTest" />
+      <option name="METHOD_NAME" value="postPersonne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PersonneRessourceTest.getOne" />
+        <item itemvalue="JUnit.PersonneRessourceTest.deletePersonne" />
+        <item itemvalue="JUnit.PersonneRessourceTest" />
+        <item itemvalue="JUnit.PersonneRessourceTest.postPersonne" />
+        <item itemvalue="JUnit.PersonneRessourceTest.getAll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="792ee0c7-fb5f-444a-aa01-dcf8774cd5d3" name="Default Changelist" comment="" />
+      <created>1572531861867</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572531861867</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
