@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="792ee0c7-fb5f-444a-aa01-dcf8774cd5d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/angular/src/app/personnes/personne.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci/jenkins" beforeDir="false" afterPath="$PROJECT_DIR$/ci/Jenkinsfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +62,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PersonneRessourceTest.getOne">
+  <component name="RunManager" selected="Application.DevopsUpemWsApplication">
+    <configuration name="DevopsUpemWsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.DevopsUpemWsApplication" />
+      <module name="devops-upem-ws" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.upem.master2.devops.apprentis.devopsupemws.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PersonneRessourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="devops-upem-ws" />
       <extension name="coverage">
@@ -87,22 +102,6 @@
       <option name="PACKAGE_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource" />
       <option name="MAIN_CLASS_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.PersonneRessourceTest" />
       <option name="METHOD_NAME" value="deletePersonne" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonneRessourceTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="devops-upem-ws" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource" />
-      <option name="MAIN_CLASS_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.PersonneRessourceTest" />
-      <option name="METHOD_NAME" value="getAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DevopsUpemWsApplication" />
         <item itemvalue="JUnit.PersonneRessourceTest.getOne" />
         <item itemvalue="JUnit.PersonneRessourceTest.deletePersonne" />
         <item itemvalue="JUnit.PersonneRessourceTest" />
         <item itemvalue="JUnit.PersonneRessourceTest.postPersonne" />
-        <item itemvalue="JUnit.PersonneRessourceTest.getAll" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +161,9 @@
       <updated>1572531861867</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ts" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
