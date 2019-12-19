@@ -14,11 +14,15 @@ export class PersonnesComponent implements OnInit {
   constructor(private personneService : PersonneService) { }
 
   ngOnInit() {
-      this.personneService.getAllPersonnes().subscribe(
-      data => this.personnes = data
+     this.refreshPersonnes();
+   }
+
+   refreshPersonnes(personne: Personne){
+     this.personneService.getAllPersonnes().subscribe(
+          data => this.personnes = data
 
 
-      );
+          );
    }
 
 }

@@ -14,4 +14,8 @@ export class PersonneService {
   getAllPersonnes() : Observable<Array<Personne>> {
       return this.httpClient.get<Array<Personne>>('/personnes')
   }
+
+  deletePersonne(id: number) : Observable<any>{
+  return this.httpClient.delete('/personnes/' + id);
+  }
 }

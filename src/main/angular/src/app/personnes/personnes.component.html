@@ -1,7 +1,7 @@
 <p>personnes works!</p>
-<ul>
-  <li *ngFor="let personne of personnes">
-    {{personne.nom}} {{ personne.prenom}}
+<ul class="personnes">
+  <li *ngFor="let p of personnes">
+    <app-personne [personne]="p" (deletePersonne)="refreshPersonnes($event)"></app-personne>
   </li>
 
 
