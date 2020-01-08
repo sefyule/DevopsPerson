@@ -17,7 +17,7 @@ export class PersonnesComponent implements OnInit {
      this.refreshPersonnes();
    }
 
-   refreshPersonnes(personne: Personne){
+   refreshPersonnes(){
      this.personneService.getAllPersonnes().subscribe(
           data => this.personnes = data
 

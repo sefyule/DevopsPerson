@@ -1,9 +1,11 @@
 <p>personnes works!</p>
+<app-personne-form></app-personne-form>
 <ul class="personnes">
   <li *ngFor="let p of personnes">
-    <app-personne [personne]="p" (deletePersonne)="refreshPersonnes($event)"></app-personne>
-  </li>
+    <app-personne [personne]="p" (deletePersonne)="refreshPersonnes($event)">
 
+    </app-personne>
+  </li>
 
 
 

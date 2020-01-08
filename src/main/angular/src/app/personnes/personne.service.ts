@@ -18,4 +18,8 @@ export class PersonneService {
   deletePersonne(id: number) : Observable<any>{
   return this.httpClient.delete('/personnes/' + id);
   }
+
+  createPersonne(personne : Personne) : Observable<Personne>{
+    return this.httpClient.post<Personne>('/personnes', personne);
+  }
 }

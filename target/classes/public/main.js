@@ -36,6 +36,32 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/personnes/personne-form/personne-form.component.html":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/personnes/personne-form/personne-form.component.html ***!
+  \************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<form [formGroup]=\"profileForm\">\n\n  <label>\n    First Name:\n    <input type=\"text\" formControlName=\"prenom\">\n  </label>\n\n  <label>\n    Last Name:\n    <input type=\"text\" formControlName=\"nom\">\n  </label>\n\n  <button (click)=\"onSubmit()\">+</button>\n</form>\n\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/personnes/personne/personne.component.html":
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/personnes/personne/personne.component.html ***!
+  \**************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<span class=\"nom\"> {{personne.nom}} </span>\n<span class=\"prenom\"> {{personne.prenom}} </span>\n<button (click)=\"onDelete()\"> X</button>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/personnes/personnes.component.html":
 /*!******************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/personnes/personnes.component.html ***!
@@ -45,7 +71,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<p>personnes works!</p>\n<ul>\n  <li *ngFor=\"let personne of personnes\">\n    {{personne.nom}} {{ personne.prenom}}\n  </li>\n\n\n\n\n</ul>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<p>personnes works!</p>\n<app-personne-form></app-personne-form>\n<ul class=\"personnes\">\n  <li *ngFor=\"let p of personnes\">\n    <app-personne [personne]=\"p\" (deletePersonne)=\"refreshPersonnes($event)\">\n\n    </app-personne>\n  </li>\n\n\n\n</ul>\n");
 
 /***/ }),
 
@@ -369,6 +395,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _personnes_personnes_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./personnes/personnes.component */ "./src/app/personnes/personnes.component.ts");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var _personnes_personne_personne_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./personnes/personne/personne.component */ "./src/app/personnes/personne/personne.component.ts");
+/* harmony import */ var _personnes_personne_form_personne_form_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./personnes/personne-form/personne-form.component */ "./src/app/personnes/personne-form/personne-form.component.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+
+
+
 
 
 
@@ -382,17 +414,85 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
         declarations: [
             _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
-            _personnes_personnes_component__WEBPACK_IMPORTED_MODULE_5__["PersonnesComponent"]
+            _personnes_personnes_component__WEBPACK_IMPORTED_MODULE_5__["PersonnesComponent"],
+            _personnes_personne_personne_component__WEBPACK_IMPORTED_MODULE_7__["PersonneComponent"],
+            _personnes_personne_form_personne_form_component__WEBPACK_IMPORTED_MODULE_8__["PersonneFormComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
             _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
-            _angular_common_http__WEBPACK_IMPORTED_MODULE_6__["HttpClientModule"]
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_6__["HttpClientModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_9__["ReactiveFormsModule"]
         ],
         providers: [],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
     })
 ], AppModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/personnes/personne-form/personne-form.component.css":
+/*!*********************************************************************!*\
+  !*** ./src/app/personnes/personne-form/personne-form.component.css ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BlcnNvbm5lcy9wZXJzb25uZS1mb3JtL3BlcnNvbm5lLWZvcm0uY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/personnes/personne-form/personne-form.component.ts":
+/*!********************************************************************!*\
+  !*** ./src/app/personnes/personne-form/personne-form.component.ts ***!
+  \********************************************************************/
+/*! exports provided: PersonneFormComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PersonneFormComponent", function() { return PersonneFormComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _personne_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../personne.service */ "./src/app/personnes/personne.service.ts");
+
+
+
+
+let PersonneFormComponent = class PersonneFormComponent {
+    constructor(personneService) {
+        this.personneService = personneService;
+        this.profileForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroup"]({
+            nom: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](''),
+            prenom: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](''),
+        });
+        this.createPersonne = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+    }
+    ngOnInit() {
+    }
+    onSubmit() {
+        let personneForm = this.profileForm.value;
+        this.personneService.createPersonne(personneForm).subscribe(data => this.createPersonne.emit(personneForm), error => console.log(error));
+    }
+};
+PersonneFormComponent.ctorParameters = () => [
+    { type: _personne_service__WEBPACK_IMPORTED_MODULE_3__["PersonneService"] }
+];
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"])()
+], PersonneFormComponent.prototype, "createPersonne", void 0);
+PersonneFormComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-personne-form',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./personne-form.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/personnes/personne-form/personne-form.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./personne-form.component.css */ "./src/app/personnes/personne-form/personne-form.component.css")).default]
+    })
+], PersonneFormComponent);
 
 
 
@@ -421,6 +521,12 @@ let PersonneService = class PersonneService {
     getAllPersonnes() {
         return this.httpClient.get('/personnes');
     }
+    deletePersonne(id) {
+        return this.httpClient.delete('/personnes/' + id);
+    }
+    createPersonne(personne) {
+        return this.httpClient.post('/personnes', personne);
+    }
 };
 PersonneService.ctorParameters = () => [
     { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }
@@ -435,6 +541,67 @@ PersonneService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
+/***/ "./src/app/personnes/personne/personne.component.css":
+/*!***********************************************************!*\
+  !*** ./src/app/personnes/personne/personne.component.css ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".nom{\n  color: blueviolet;\n}\n\n.prenom{\n  color: green;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGVyc29ubmVzL3BlcnNvbm5lL3BlcnNvbm5lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxpQkFBaUI7QUFDbkI7O0FBRUE7RUFDRSxZQUFZO0FBQ2QiLCJmaWxlIjoic3JjL2FwcC9wZXJzb25uZXMvcGVyc29ubmUvcGVyc29ubmUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5ub217XG4gIGNvbG9yOiBibHVldmlvbGV0O1xufVxuXG4ucHJlbm9te1xuICBjb2xvcjogZ3JlZW47XG59XG4iXX0= */");
+
+/***/ }),
+
+/***/ "./src/app/personnes/personne/personne.component.ts":
+/*!**********************************************************!*\
+  !*** ./src/app/personnes/personne/personne.component.ts ***!
+  \**********************************************************/
+/*! exports provided: PersonneComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PersonneComponent", function() { return PersonneComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _personne_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../personne.service */ "./src/app/personnes/personne.service.ts");
+
+
+
+let PersonneComponent = class PersonneComponent {
+    constructor(personneService) {
+        this.personneService = personneService;
+        this.deletePersonne = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+    }
+    ngOnInit() {
+    }
+    onDelete() {
+        this.personneService.deletePersonne(this.personne.id).subscribe(data => this.deletePersonne.emit(this.personne), error => console.log(error));
+    }
+};
+PersonneComponent.ctorParameters = () => [
+    { type: _personne_service__WEBPACK_IMPORTED_MODULE_2__["PersonneService"] }
+];
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()
+], PersonneComponent.prototype, "personne", void 0);
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"])()
+], PersonneComponent.prototype, "deletePersonne", void 0);
+PersonneComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-personne',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./personne.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/personnes/personne/personne.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./personne.component.css */ "./src/app/personnes/personne/personne.component.css")).default]
+    })
+], PersonneComponent);
+
+
+
+/***/ }),
+
 /***/ "./src/app/personnes/personnes.component.css":
 /*!***************************************************!*\
   !*** ./src/app/personnes/personnes.component.css ***!
@@ -444,7 +611,7 @@ PersonneService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BlcnNvbm5lcy9wZXJzb25uZXMuY29tcG9uZW50LmNzcyJ9 */");
+/* harmony default export */ __webpack_exports__["default"] = (".personnes{\n  border : 1px solid;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGVyc29ubmVzL3BlcnNvbm5lcy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usa0JBQWtCO0FBQ3BCIiwiZmlsZSI6InNyYy9hcHAvcGVyc29ubmVzL3BlcnNvbm5lcy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnBlcnNvbm5lc3tcbiAgYm9yZGVyIDogMXB4IHNvbGlkO1xufVxuIl19 */");
 
 /***/ }),
 
@@ -469,6 +636,9 @@ let PersonnesComponent = class PersonnesComponent {
         this.personneService = personneService;
     }
     ngOnInit() {
+        this.refreshPersonnes();
+    }
+    refreshPersonnes() {
         this.personneService.getAllPersonnes().subscribe(data => this.personnes = data);
     }
 };

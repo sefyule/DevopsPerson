@@ -1,0 +1,15 @@
+<form [formGroup]="profileForm">
+
+  <label>
+    First Name:
+    <input type="text" formControlName="prenom">
+  </label>
+
+  <label>
+    Last Name:
+    <input type="text" formControlName="nom">
+  </label>
+
+  <button (click)="onSubmit()">+</button>
+</form>
+

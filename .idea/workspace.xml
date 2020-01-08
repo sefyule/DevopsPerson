@@ -2,9 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="792ee0c7-fb5f-444a-aa01-dcf8774cd5d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/angular/src/app/personnes/personne.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/angular/src/app/personnes/personne-form/personne-form.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/angular/src/app/personnes/personne-form/personne-form.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/angular/src/app/personnes/personne-form/personne-form.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/angular/src/app/personnes/personne-form/personne-form.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ci/jenkins" beforeDir="false" afterPath="$PROJECT_DIR$/ci/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/angular/src/app/personnes/personne.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/src/app/personnes/personne.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/angular/src/app/personnes/personnes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/src/app/personnes/personnes.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/angular/src/app/personnes/personnes.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/src/app/personnes/personnes.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/DevopsUpemWsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/DevopsUpemWsApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/model/Personne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/model/Personne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/repository/PersonneRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/repository/PersonneRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/ressource/PersonneRessource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/ressource/PersonneRessource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/service/PersonneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/upem/master2/devops/apprentis/devopsupemws/service/PersonneService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/vendor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/vendor.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/devops-upem-ws-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/devops-upem-ws-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/devops-upem-ws-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/devops-upem-ws-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/main-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/main-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/main-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/main-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/polyfills-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/polyfills-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/polyfills-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/polyfills-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/runtime-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/runtime-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/runtime-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/runtime-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/styles-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/styles-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/styles-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/styles-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/vendor-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/vendor-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/vendor-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/vendor-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.upem.master2.devops.apprentis.devopsupemws.ressource.PersonneRessourceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.upem.master2.devops.apprentis.devopsupemws.ressource.PersonneRessourceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.upem.master2.devops.apprentis.devopsupemws.ressource.PersonneRessourceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/fr.upem.master2.devops.apprentis.devopsupemws.ressource.PersonneRessourceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fr/upem/master2/devops/apprentis/devopsupemws/DevopsUpemWsApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fr/upem/master2/devops/apprentis/devopsupemws/DevopsUpemWsApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fr/upem/master2/devops/apprentis/devopsupemws/ressource/PersonneRessourceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fr/upem/master2/devops/apprentis/devopsupemws/ressource/PersonneRessourceTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +78,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1SyNQo5SwXFf8iwdFqPXEiVba3U" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/devops/Project/Aquarium" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -164,6 +213,7 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.ts" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -177,5 +227,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
